@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+color: white;
+font-family: "Roboto", sans-serif;;
+}
+body{
+background: white;}
+.portfolio{
+
+    height: 100%;
+    margin: auto;
+    width: 95%;
+background: black;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+background: #000;
+padding: 10px;
+width: 90%;
+}
+
+.nav-items a{
+padding: 10px;
+color: white;
+
+}
+h2{
+    color: transparent;
+    background: linear-gradient(aqua,rgb(17, 75, 75));
+background-clip:text ;
+margin-left: 10px;
+}
+.menu{
+    color: white;
+    margin-right: -40px;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.box1{
+    background: red;
+    height: 300px;
+    width: 400px;
+}
+
+@media screen and (max-width:576px) {
+    .nav-items a{
+      display: none;
+    }
+    
+}
+@media screen and (min-width:576px) {
+    .menu {
+      display: none;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .portfolio{
+   width: 100%;
+    }
+    
+}
+
+header{
+    margin: 50px 40px;
+    padding: 10px; 
+
+
+}
+.nav-items a:hover{
+background: aqua;
+border-radius: 5px;
+color: black;
+}
+.header p{
+    font-size: 30px;
+   
+}
+span{
+    color: aqua;
+}
+.b{
+    padding: 5px;
+    margin-top: 6px;
+    
+}
+small{
+    padding: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.box3{
+    background: aqua;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+
+ 
+}
+button{
+   background: linear-gradient(aqua,aqua);
+    padding: 10px 20px;
+   border: none;
+margin-bottom: 100px;
+color: black;
+font-weight: 700;
+}
+button:hover{
+    box-shadow: 0 0 30px aqua;
+}
+
+.btn{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section-01{
+    text-align: center;
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 10px;
+    width: 50%;
+    margin: auto;
+   
+}
+.section-01 p{
+padding: 10px;
+}
+.paras{
+    font-size: 14px;
+}
+.skills{
+    text-align: center;
+    color: aqua;
+    font-size: 20px;
+}
+.lists{
+    color: white;
+    text-align: center;
+   
+  
+}
+.lists span{
+    margin-left: 10px;
+    color: white;
+    text-transform: capitalize;
+}
+.languages {
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+
+}
+.lang{
+    color: aqua;
+    font-size: 23px;
+}
+.Contacts p{
+    text-align: center;
+    color: aqua;
+    font-size: 23px;
+}
+address{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.header{
+    width: 50%;
+}
+
+
+@media screen and (max-width:576px) {
+    .header {
+    width: 100%;
+    text-align: center;
+    }  .header p{
+        font-size: 18px;
+
+    }
+    /* .box3{
+       width: 30%;
+       height: 150px;
+    } */
+    .section-01{
+        font-size: 15px;
+    
+    }
+    .box3{
+        display: none;
+    }
+.skills{
+    font-size: 15px;
+}
+.lang { 
+    font-size: 15px;
+}
+.languages {
+    font-size: 13px;
+}
+.Contacts p{
+    font-size: 15px;
+}
+address{
+    font-size: 13px;
+}
+
+}
